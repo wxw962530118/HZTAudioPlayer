@@ -1,0 +1,24 @@
+PODS:
+  - FreeStreamer (4.0.0):
+    - Reachability (~> 3.0)
+  - MBProgressHUD (1.2.0)
+  - Reachability (3.2)
+
+DEPENDENCIES:
+  - FreeStreamer
+  - MBProgressHUD
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FreeStreamer
+    - MBProgressHUD
+    - Reachability
+
+SPEC CHECKSUMS:
+  FreeStreamer: 7e9c976045701ac2f7e9c14c17245203c37bf2ea
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+
+PODFILE CHECKSUM: e57a40c7503dfd78ab93e2693da2a96da68a8f6a
+
+COCOAPODS: 1.8.4

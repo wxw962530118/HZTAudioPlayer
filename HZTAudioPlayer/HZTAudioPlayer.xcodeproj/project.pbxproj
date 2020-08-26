@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C40F9A924F5F92C003AB27D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C40F9A824F5F92C003AB27D /* AppDelegate.m */; };
+		7C40F9B424F5F936003AB27D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C40F9B324F5F936003AB27D /* Assets.xcassets */; };
+		7C40F9B724F5F936003AB27D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C40F9B524F5F936003AB27D /* LaunchScreen.storyboard */; };
+		7C40F9BA24F5F936003AB27D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C40F9B924F5F936003AB27D /* main.m */; };
+		7C40F9C224F5F993003AB27D /* HZTAudioPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C40F9C124F5F993003AB27D /* HZTAudioPlayerManager.m */; };
+		7C40F9C624F600DC003AB27D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C40F9C424F600DC003AB27D /* HomeViewController.m */; };
+		7C40F9C724F600DC003AB27D /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C40F9C524F600DC003AB27D /* HomeViewController.xib */; };
+		A145DB59F4C91B0A410C8173 /* libPods-HZTAudioPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE1A21634761E3529D8FCBA /* libPods-HZTAudioPlayer.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1BAE6AC86CABB3D1FFDBEFCC /* Pods-HZTAudioPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZTAudioPlayer.release.xcconfig"; path = "Target Support Files/Pods-HZTAudioPlayer/Pods-HZTAudioPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		7C40F9A424F5F92C003AB27D /* HZTAudioPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HZTAudioPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C40F9A724F5F92C003AB27D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7C40F9A824F5F92C003AB27D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7C40F9B324F5F936003AB27D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7C40F9B624F5F936003AB27D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7C40F9B824F5F936003AB27D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C40F9B924F5F936003AB27D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7C40F9C024F5F993003AB27D /* HZTAudioPlayerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZTAudioPlayerManager.h; sourceTree = "<group>"; };
+		7C40F9C124F5F993003AB27D /* HZTAudioPlayerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZTAudioPlayerManager.m; sourceTree = "<group>"; };
+		7C40F9C324F600DC003AB27D /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		7C40F9C424F600DC003AB27D /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		7C40F9C524F600DC003AB27D /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		D9A9C5B18B0326D8EA2E8D51 /* Pods-HZTAudioPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZTAudioPlayer.debug.xcconfig"; path = "Target Support Files/Pods-HZTAudioPlayer/Pods-HZTAudioPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		FCE1A21634761E3529D8FCBA /* libPods-HZTAudioPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HZTAudioPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C40F9A124F5F92C003AB27D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A145DB59F4C91B0A410C8173 /* libPods-HZTAudioPlayer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A7B972163300C4B540E3088 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCE1A21634761E3529D8FCBA /* libPods-HZTAudioPlayer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C40F99B24F5F92C003AB27D = {
+			isa = PBXGroup;
+			children = (
+				7C40F9A624F5F92C003AB27D /* HZTAudioPlayer */,
+				7C40F9A524F5F92C003AB27D /* Products */,
+				B480718A461C53BB441CFD10 /* Pods */,
+				7A7B972163300C4B540E3088 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7C40F9A524F5F92C003AB27D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C40F9A424F5F92C003AB27D /* HZTAudioPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C40F9A624F5F92C003AB27D /* HZTAudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				7C40F9A724F5F92C003AB27D /* AppDelegate.h */,
+				7C40F9A824F5F92C003AB27D /* AppDelegate.m */,
+				7C40F9C324F600DC003AB27D /* HomeViewController.h */,
+				7C40F9C424F600DC003AB27D /* HomeViewController.m */,
+				7C40F9C524F600DC003AB27D /* HomeViewController.xib */,
+				7C40F9C024F5F993003AB27D /* HZTAudioPlayerManager.h */,
+				7C40F9C124F5F993003AB27D /* HZTAudioPlayerManager.m */,
+				7C40F9B324F5F936003AB27D /* Assets.xcassets */,
+				7C40F9B524F5F936003AB27D /* LaunchScreen.storyboard */,
+				7C40F9B824F5F936003AB27D /* Info.plist */,
+				7C40F9B924F5F936003AB27D /* main.m */,
+			);
+			path = HZTAudioPlayer;
+			sourceTree = "<group>";
+		};
+		B480718A461C53BB441CFD10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9A9C5B18B0326D8EA2E8D51 /* Pods-HZTAudioPlayer.debug.xcconfig */,
+				1BAE6AC86CABB3D1FFDBEFCC /* Pods-HZTAudioPlayer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C40F9A324F5F92C003AB27D /* HZTAudioPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C40F9BD24F5F936003AB27D /* Build configuration list for PBXNativeTarget "HZTAudioPlayer" */;
+			buildPhases = (
+				63FEFEC6B4118C701A8B822E /* [CP] Check Pods Manifest.lock */,
+				7C40F9A024F5F92C003AB27D /* Sources */,
+				7C40F9A124F5F92C003AB27D /* Frameworks */,
+				7C40F9A224F5F92C003AB27D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HZTAudioPlayer;
+			productName = HZTAudioPlayer;
+			productReference = 7C40F9A424F5F92C003AB27D /* HZTAudioPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C40F99C24F5F92C003AB27D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = wangxw;
+				TargetAttributes = {
+					7C40F9A324F5F92C003AB27D = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 7C40F99F24F5F92C003AB27D /* Build configuration list for PBXProject "HZTAudioPlayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7C40F99B24F5F92C003AB27D;
+			productRefGroup = 7C40F9A524F5F92C003AB27D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C40F9A324F5F92C003AB27D /* HZTAudioPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C40F9A224F5F92C003AB27D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C40F9B724F5F936003AB27D /* LaunchScreen.storyboard in Resources */,
+				7C40F9B424F5F936003AB27D /* Assets.xcassets in Resources */,
+				7C40F9C724F600DC003AB27D /* HomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63FEFEC6B4118C701A8B822E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HZTAudioPlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C40F9A024F5F92C003AB27D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C40F9A924F5F92C003AB27D /* AppDelegate.m in Sources */,
+				7C40F9C224F5F993003AB27D /* HZTAudioPlayerManager.m in Sources */,
+				7C40F9BA24F5F936003AB27D /* main.m in Sources */,
+				7C40F9C624F600DC003AB27D /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7C40F9B524F5F936003AB27D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C40F9B624F5F936003AB27D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7C40F9BB24F5F936003AB27D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7C40F9BC24F5F936003AB27D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C40F9BE24F5F936003AB27D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9A9C5B18B0326D8EA2E8D51 /* Pods-HZTAudioPlayer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VQPQP5D7Q6;
+				INFOPLIST_FILE = HZTAudioPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "haizitong-wangwx.HZTAudioPlayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7C40F9BF24F5F936003AB27D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BAE6AC86CABB3D1FFDBEFCC /* Pods-HZTAudioPlayer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VQPQP5D7Q6;
+				INFOPLIST_FILE = HZTAudioPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "haizitong-wangwx.HZTAudioPlayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C40F99F24F5F92C003AB27D /* Build configuration list for PBXProject "HZTAudioPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C40F9BB24F5F936003AB27D /* Debug */,
+				7C40F9BC24F5F936003AB27D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C40F9BD24F5F936003AB27D /* Build configuration list for PBXNativeTarget "HZTAudioPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C40F9BE24F5F936003AB27D /* Debug */,
+				7C40F9BF24F5F936003AB27D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7C40F99C24F5F92C003AB27D /* Project object */;
+}

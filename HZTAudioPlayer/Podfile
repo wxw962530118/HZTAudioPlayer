@@ -1,0 +1,36 @@
+###
+# Author: HanJiangkai
+# Date: 2015.07.23
+# Email: hanjaingkai#haizitong.com
+# File: Podfile for Yuan
+
+###
+#官方源
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '9.0'
+#use_frameworks!
+inhibit_all_warnings!
+
+def shared_pod
+    pod 'FreeStreamer'
+    pod 'MBProgressHUD'
+end
+
+target 'HZTAudioPlayer' do
+    shared_pod
+end
+
+#完成安装后，做一些必要的配置
+#Using to pod version 0.38.0 and compatibality old version.
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+            config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '9.0'
+            if target.name == 'OpenCore'
+                config.build_settings['ENABLE_BITCODE'] = 'NO'
+            end
+        end
+    end
+end
+
