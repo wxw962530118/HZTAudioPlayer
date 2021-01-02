@@ -23,8 +23,8 @@ typedef NS_ENUM(NSInteger,PlayState){
 
 typedef NS_ENUM(NSInteger,PlayLoopMode){
     PlayLoopMode_OnceLoop=0,  /**单曲循环*/
-    PlayLoopMode_ForeverLoop,      /**重复循环*/
-    PlayLoopMode_RandomLoop,    /**随机播放*/
+    PlayLoopMode_ForeverLoop, /**重复循环*/
+    PlayLoopMode_RandomLoop,  /**随机播放*/
 };
 
 @interface HZTAudioPlayerManager : NSObject
